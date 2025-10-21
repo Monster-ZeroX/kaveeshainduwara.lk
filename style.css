@@ -705,3 +705,15 @@ body {
         right: 1rem;
     }
 }
+
+/* Mobile fix for profile image cutoff */
+@media (max-width: 600px) {
+  .hero-profile-img {
+    width: 140px !important;
+    height: 140px !important;
+  }
+  
+  .hero {
+    padding: 0 1rem;  /* Extra padding for cramped screens */
+  }
+}
