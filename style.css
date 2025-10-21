@@ -130,6 +130,7 @@ body {
 
 .hero-content {
     max-width: 900px;
+    width: 100%;
 }
 
 .hero-image-container {
@@ -138,13 +139,15 @@ body {
 }
 
 .hero-profile-img {
-    width: 180px;
-    height: 180px;
+    width: clamp(140px, 30vw, 180px);
+    height: clamp(140px, 30vw, 180px);
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid var(--accent-primary);
     box-shadow: 0 0 20px rgba(100, 255, 218, 0.3);
     transition: var(--transition);
+    display: block;
+    margin: 0 auto;
 }
 
 .hero-profile-img:hover {
@@ -704,16 +707,24 @@ body {
         top: 1rem;
         right: 1rem;
     }
+
+    .hero-profile-img {
+        width: clamp(120px, 35vw, 160px);
+        height: clamp(120px, 35vw, 160px);
+    }
 }
 
-/* Mobile fix for profile image cutoff */
-@media (max-width: 600px) {
-  .hero-profile-img {
-    width: 140px !important;
-    height: 140px !important;
-  }
-  
-  .hero {
-    padding: 0 1rem;  /* Extra padding for cramped screens */
-  }
+@media (max-width: 480px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .hero {
+        padding: 0 1rem;
+    }
+
+    .hero-profile-img {
+        width: 120px;
+        height: 120px;
+    }
 }
