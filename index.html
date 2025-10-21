@@ -3,172 +3,337 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaveesha Induwara - Developer & Designer</title>
-    <meta name="description" content="Portfolio of Kaveesha Induwara: Python Developer, Web Developer, Android App Developer, and Graphic Designer from Sri Lanka.">
+    <meta name="description" content="Portfolio of Kaveesha Mallawaarachchi - Student Developer & Designer specializing in Python, Telegram bots, web development, and mobile apps from Sri Lanka.">
+    <meta name="keywords" content="Kaveesha Mallawaarachchi, Developer, Designer, Python, Telegram Bots, Web Development, Flutter, Sri Lanka">
+    <meta name="author" content="Kaveesha Mallawaarachchi">
+    <title>Kaveesha Mallawaarachchi - Developer & Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/Monster-ZeroX/kaveeshainduwara.lk/refs/heads/main/dp.ico">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="nav-container">
-                <a href="#home" class="nav-logo">KI</a>
-                <ul class="nav-menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Kaveesha Mallawaarachchi</a>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
             </div>
-        </nav>
-    </header>
-
-    <main>
-        <section id="home" class="hero">
-            <div class="hero-container">
-                <div class="hero-content">
-                    <h1>Hi, I'm <span class="highlight">Kaveesha Induwara</span></h1>
-                    <p class="hero-subtitle">Student Developer & Designer | Building bots, apps, and web experiences from Sri Lanka 🇱🇰</p>
-                    <div class="hero-actions">
-                        <a href="#projects" class="btn btn-primary">View Projects</a>
-                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <img src="profile.jpg" alt="Kaveesha Induwara, Developer" width="300" height="300">
-                </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-        </section>
+        </div>
+    </nav>
 
-        <section id="about" class="about">
-            <div class="container">
-                <h2>About Me</h2>
-                <div class="about-content">
-                    <p>I'm a passionate student and developer from Sri Lanka, specializing in Python for Telegram bots, web development with HTML/CSS/JS, and Android apps using Dart/Flutter. Currently contributing to the FilmsZilla Network, I'm always learning—diving into Linux and design patterns. When not coding, I enjoy graphic design and collaborating on open-source projects.</p>
-                    <p>Fun fact: I'm still navigating the wild world of software as a student, but I've already built tools that stream videos and upload files across clouds!</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="skills" class="skills">
-            <div class="container">
-                <h2>Skills</h2>
-                <div class="skills-grid">
-                    <div class="skill-card">
-                        <h3>Backend & Bots</h3>
-                        <ul>
-                            <li>Python</li>
-                            <li>Telegram Bot API</li>
-                            <li>Linux Basics</li>
-                        </ul>
-                    </div>
-                    <div class="skill-card">
-                        <h3>Web Development</h3>
-                        <ul>
-                            <li>HTML/CSS</li>
-                            <li>JavaScript</li>
-                            <li>Cloudflare Workers</li>
-                        </ul>
-                    </div>
-                    <div class="skill-card">
-                        <h3>Mobile & Design</h3>
-                        <ul>
-                            <li>Dart/Flutter</li>
-                            <li>Graphic Design (Photoshop)</li>
-                            <li>Android App Dev</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects" class="projects">
-            <div class="container">
-                <h2>Projects</h2>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <h3>Video Stream X Bot</h3>
-                        <p>A Telegram bot for streaming videos in voice chats. Built with Python—stream your media seamlessly!</p>
-                        <a href="https://github.com/Monster-ZeroX/Video-Stream-X-Bot" target="_blank" class="btn btn-primary">View on GitHub</a>
-                    </div>
-                    <div class="project-card">
-                        <h3>MultiUpload Bot</h3>
-                        <p>Upload Telegram files to multiple cloud storages effortlessly. Python-powered for multi-service integration.</p>
-                        <a href="https://github.com/Monster-ZeroX/MultiUpload" target="_blank" class="btn btn-primary">View on GitHub</a>
-                    </div>
-                    <div class="project-card">
-                        <h3>OneDrive CF Index</h3>
-                        <p>A sleek OneDrive file indexer powered by Cloudflare Workers. Forked and customized for better looks.</p>
-                        <a href="https://github.com/Monster-ZeroX/onedrive-cf-index" target="_blank" class="btn btn-primary">View on GitHub</a>
-                    </div>
-                    <div class="project-card">
-                        <h3>Telegram Web</h3>
-                        <p>A custom web interface for Telegram, styled with CSS for a modern feel.</p>
-                        <a href="https://github.com/Monster-ZeroX/Telegram-Web" target="_blank" class="btn btn-primary">View on GitHub</a>
-                    </div>
-                </div>
-                <p class="projects-note">More projects on <a href="https://github.com/Monster-ZeroX" target="_blank">GitHub</a>. Let's collaborate!</p>
-            </div>
-        </section>
-
-        <section id="contact" class="contact">
-            <div class="container">
-                <h2>Contact</h2>
-                <p>Ready to chat about opportunities? Reach out via email or socials.</p>
-                <div class="contact-links">
-                    <a href="mailto:info@kaviya.me" class="contact-link">Email: info@kaviya.me</a>
-                    <a href="https://www.linkedin.com/in/kaveesha-induwara-389279202/" target="_blank" class="contact-link">LinkedIn</a>
-                    <a href="https://github.com/Monster-ZeroX" target="_blank" class="contact-link">GitHub</a>
-                    <a href="https://t.me/Monster_ZeroX" target="_blank" class="contact-link">Telegram</a>
-                    <a href="https://www.instagram.com/kaveeshainduwara.lk" target="_blank" class="contact-link">Instagram</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
+    <section id="home" class="hero">
         <div class="container">
-            <p>&copy; 2025 Kaveesha Induwara. Built with HTML, CSS & JS. 🚀</p>
+            <div class="hero-content fade-in">
+                <div class="hero-image-container">
+                    <img src="https://raw.githubusercontent.com/Monster-ZeroX/kaveeshainduwara.lk/refs/heads/main/dp.jpg" alt="Kaveesha Mallawaarachchi" class="hero-profile-img">
+                </div>
+                <p class="hero-greeting">Hi, I'm</p>
+                <h1 class="hero-name">Kaveesha Mallawaarachchi</h1>
+                <h2 class="hero-title">Student Developer & Designer</h2>
+                <p class="hero-description">
+                    Building bots, apps, and web experiences from Sri Lanka 🇱🇰<br>
+                    Specialized in Python, Telegram bots, Web Development, and Mobile Apps
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Let's Connect</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header fade-in-section">
+                <span class="section-number">01.</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="about-content fade-in-section">
+                <div class="about-text">
+                    <p>I'm a passionate student developer and designer from Sri Lanka with a love for creating innovative solutions. My journey in tech spans from building powerful <strong>Telegram bots with Python</strong> to crafting beautiful web experiences with modern technologies.</p>
+                    <p>I enjoy working on diverse projects, from <strong>serverless applications on Cloudflare Workers</strong> to <strong>mobile apps with Flutter</strong>, and contributing to open-source projects. Every line of code I write is a step toward mastering my craft.</p>
+                    <p class="highlight-text">Fun fact: I'm still navigating the vast ocean of development, but I'm already sailing smoothly across clouds!</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Technologies</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">∞</span>
+                            <span class="stat-label">Passion</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <div class="section-header fade-in-section">
+                <span class="section-number">02.</span>
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="skills-container fade-in-section">
+                <div class="skill-category">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Backend & Bots</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>Telegram Bot API</li>
+                        <li>Linux Basics</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">💻</div>
+                    <h3>Web Development</h3>
+                    <ul class="skill-list">
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                        <li>Cloudflare Workers</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">📱</div>
+                    <h3>Mobile & Design</h3>
+                    <ul class="skill-list">
+                        <li>Dart/Flutter</li>
+                        <li>Graphic Design (Photoshop)</li>
+                        <li>Android App Dev</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header fade-in-section">
+                <span class="section-number">03.</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card fade-in-section">
+                    <div class="project-number">01</div>
+                    <h3 class="project-title">Video Stream X Bot</h3>
+                    <p class="project-description">A Telegram bot designed to stream videos in voice chats with high-quality playback and smooth user interactions. Perfect for group entertainment and seamless video sharing.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Telegram API</span>
+                        <span>FFmpeg</span>
+                    </div>
+                    <a href="https://github.com/Monster-ZeroX/Video-Stream-X-Bot" target="_blank" rel="noopener noreferrer" class="project-link">
+                        <span>View Project</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5 15L15 5M15 5H8M15 5V12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="project-card fade-in-section">
+                    <div class="project-number">02</div>
+                    <h3 class="project-title">YouTube Music Downloader</h3>
+                    <p class="project-description">A Python-based tool to download music from YouTube Music in high-quality MP3 format. Features interactive file selection, authenticated downloads using cookies, and retry mechanisms for failed downloads.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>yt-dlp</span>
+                        <span>FFmpeg</span>
+                    </div>
+                    <a href="https://github.com/Monster-ZeroX/YouTube-Music-Downloader" target="_blank" rel="noopener noreferrer" class="project-link">
+                        <span>View Project</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5 15L15 5M15 5H8M15 5V12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="project-card fade-in-section">
+                    <div class="project-number">03</div>
+                    <h3 class="project-title">Oracle Cloud Resource Maintainer</h3>
+                    <p class="project-description">A lightweight utility that ensures your Oracle Cloud Always Free instance maintains minimum CPU and RAM usage to avoid deactivation. Automates resource management with systemd integration.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Shell Script</span>
+                        <span>Systemd</span>
+                    </div>
+                    <a href="https://github.com/Monster-ZeroX/Oracle-Cloud-Always-Free-CPU-and-RAM-Maintainer" target="_blank" rel="noopener noreferrer" class="project-link">
+                        <span>View Project</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5 15L15 5M15 5H8M15 5V12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="project-card fade-in-section">
+                    <div class="project-number">04</div>
+                    <h3 class="project-title">YouTube Live Capture</h3>
+                    <p class="project-description">Download YouTube live streams in high quality with seamless video and audio merging. Features DVR buffer support, 1080p60 quality, and an interactive interface for easy downloads.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>yt-dlp</span>
+                        <span>FFmpeg</span>
+                    </div>
+                    <a href="https://github.com/Monster-ZeroX/YouTube-Live-Capture" target="_blank" rel="noopener noreferrer" class="project-link">
+                        <span>View Project</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5 15L15 5M15 5H8M15 5V12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="project-card fade-in-section">
+                    <div class="project-number">05</div>
+                    <h3 class="project-title">Private YouTube Downloader</h3>
+                    <p class="project-description">Download videos from private YouTube accounts you have access to. Features batch downloads, progress visualization, and reliable retry mechanisms for failed downloads.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>yt-dlp</span>
+                        <span>Tkinter</span>
+                    </div>
+                    <a href="https://github.com/Monster-ZeroX/Private-YouTube-Downloader" target="_blank" rel="noopener noreferrer" class="project-link">
+                        <span>View Project</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5 15L15 5M15 5H8M15 5V12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="projects-footer fade-in-section">
+                <p>Explore more projects on <a href="https://github.com/Monster-ZeroX" target="_blank" rel="noopener noreferrer">GitHub</a>. Always open to collaboration!</p>
+            </div>
+
+            <div class="github-stats fade-in-section">
+                <h3 class="stats-title">GitHub Contribution Activity</h3>
+                <div class="github-contribution">
+                    <img src="https://ghchart.rshah.org/64ffda/Monster-ZeroX" alt="Kaveesha Mallawaarachchi's GitHub Contribution Chart" class="contribution-chart">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <div class="section-header fade-in-section">
+                <span class="section-number">04.</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="contact-content fade-in-section">
+                <p class="contact-intro">I'm currently open to new opportunities and collaborations. Whether you have a project in mind, want to collaborate, or just want to say hi, feel free to reach out!</p>
+                <div class="contact-grid">
+                    <a href="mailto:hello@kaveeshainduwara.lk" class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M3 8L10.89 13.26C11.2187 13.4793 11.6049 13.5963 12 13.5963C12.3951 13.5963 12.7813 13.4793 13.11 13.26L21 8M5 19H19C19.5304 19 20.0391 18.7893 20.4142 18.4142C20.7893 18.0391 21 17.5304 21 17V7C21 6.46957 20.7893 5.96086 20.4142 5.58579C20.0391 5.21071 19.5304 5 19 5H5C4.46957 5 3.96086 5.21071 3.58579 5.58579C3.21071 5.96086 3 6.46957 3 7V17C3 17.5304 3.21071 18.0391 3.58579 18.4142C3.96086 18.7893 4.46957 19 5 19Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>Email</h4>
+                        <p>hello@kaveeshainduwara.lk</p>
+                    </a>
+                    <a href="https://github.com/Monster-ZeroX" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h4>GitHub</h4>
+                        <p>@Monster-ZeroX</p>
+                    </a>
+                    <a href="https://linkedin.com/in/kaveesha-induwara" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6 9H2V21H6V9Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>LinkedIn</h4>
+                        <p>Kaveesha Mallawaarachchi</p>
+                    </a>
+                    <a href="https://t.me/Monster_ZeroX" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M21.5 2.5L2.5 10.5L10 14L14 21.5L21.5 2.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10 14L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>Telegram</h4>
+                        <p>@Monster_ZeroX</p>
+                    </a>
+                    <a href="https://www.tiktok.com/@ImKaveesha" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12V3H18C18 4.5913 18.6321 6.11742 19.7574 7.24264C20.8826 8.36786 22.4087 9 24 9V12C22.4087 12 20.8826 11.3679 19.7574 10.2426C18.6321 9.11742 18 7.5913 18 6V12C18 15.3137 15.3137 18 12 18C8.68629 18 6 15.3137 6 12C6 8.68629 8.68629 6 12 6V9C10.3431 9 9 10.3431 9 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>TikTok</h4>
+                        <p>@ImKaveesha</p>
+                    </a>
+                    <a href="https://www.facebook.com/ImKaveesha" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </div>
+                        <h4>Facebook</h4>
+                        <p>@ImKaveesha</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>Designed & Built by Kaveesha Mallawaarachchi</p>
+                <p class="footer-tech">Crafted with HTML, CSS & JavaScript 🚀</p>
+                <div class="footer-social">
+                    <a href="https://github.com/Monster-ZeroX" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+                    </a>
+                    <a href="https://linkedin.com/in/kaveesha-induwara" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z"/><path d="M6 9H2V21H6V9Z"/><path d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z"/></svg>
+                    </a>
+                    <a href="https://t.me/Monster_ZeroX" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.5 2.5L2.5 10.5L10 14L14 21.5L21.5 2.5Z"/><path d="M10 14L17 7"/></svg>
+                    </a>
+                    <a href="https://instagram.com/kaveesha_induwara" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                    </a>
+                    <a href="https://www.tiktok.com/@ImKaveesha" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12V3H18C18 4.5913 18.6321 6.11742 19.7574 7.24264C20.8826 8.36786 22.4087 9 24 9V12C22.4087 12 20.8826 11.3679 19.7574 10.2426C18.6321 9.11742 18 7.5913 18 6V12C18 15.3137 15.3137 18 12 18C8.68629 18 6 15.3137 6 12C6 8.68629 8.68629 6 12 6V9C10.3431 9 9 10.3431 9 12Z"/></svg>
+                    </a>
+                    <a href="https://www.facebook.com/ImKaveesha" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                </div>
+                <p class="footer-copyright">&copy; 2025 Kaveesha Mallawaarachchi. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 
-    <script>
-        // Hamburger Menu Toggle
-        const hamburger = document.querySelector('.hamburger');
-        const navMenu = document.querySelector('.nav-menu');
-
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            navMenu.classList.toggle('active');
-        });
-
-        // Close menu on link click
-        document.querySelectorAll('.nav-menu a').forEach(link => {
-            link.addEventListener('click', () => {
-                hamburger.classList.remove('active');
-                navMenu.classList.remove('active');
-            });
-        });
-
-        // Smooth Scroll for Anchor Links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
