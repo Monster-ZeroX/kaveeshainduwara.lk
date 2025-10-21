@@ -705,3 +705,40 @@ body {
         right: 1rem;
     }
 }
+
+
+.hero {
+    padding-top: 80px; 
+}
+
+
+@media (max-width: 968px) {
+    .hero {
+        padding-top: 70px; 
+    }
+}
+
+@media (max-width: 640px) {
+    .hero {
+        padding-top: 80px;
+        min-height: calc(100vh - 80px);
+    }
+    
+    .hero-image-container {
+        margin-top: 1rem; 
+    }
+    
+    .hero-profile-img {
+        width: 150px; 
+        height: 150px;
+    }
+}
+
+
+.navbar {
+    height: 80px; 
+}
+
+.nav-container {
+    height: 100%;
+}
