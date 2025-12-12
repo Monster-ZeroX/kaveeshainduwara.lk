@@ -745,3 +745,336 @@ body {
 .nav-container {
     height: 100%;
 }
+
+.stripe-hero {
+    padding-top: 100px;
+}
+
+.guarantee-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: rgba(100, 255, 218, 0.1);
+    border: 2px solid var(--accent-primary);
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    margin: 2rem 0;
+    color: var(--accent-primary);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.guarantee-badge svg {
+    color: var(--accent-primary);
+}
+
+.packages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.package-card {
+    background: var(--bg-secondary);
+    padding: 3rem 2.5rem;
+    border-radius: 12px;
+    transition: var(--transition);
+    border: 2px solid var(--bg-light);
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-alt .package-card {
+    background: var(--bg-primary);
+}
+
+.package-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--accent-primary);
+    box-shadow: 0 20px 40px rgba(100, 255, 218, 0.15);
+}
+
+.package-card.featured {
+    border-color: var(--accent-primary);
+    transform: scale(1.05);
+}
+
+.package-card.featured:hover {
+    transform: scale(1.05) translateY(-10px);
+}
+
+.package-badge {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.package-badge.best-price {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: var(--white);
+}
+
+.package-badge.privacy {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: var(--white);
+}
+
+.package-badge.startup {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    color: var(--white);
+}
+
+.package-icon {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.package-title {
+    color: var(--text-primary);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.package-price {
+    margin-bottom: 2rem;
+}
+
+.price-amount {
+    display: block;
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--accent-primary);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.price-note {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.package-description {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    flex-grow: 1;
+}
+
+.package-btn {
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+}
+
+.extras-section {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.extras-title {
+    color: var(--text-primary);
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.extras-card {
+    background: var(--bg-secondary);
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid var(--bg-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    max-width: 700px;
+    margin: 0 auto 1rem;
+}
+
+.section-alt .extras-card {
+    background: var(--bg-primary);
+}
+
+.extras-content {
+    text-align: left;
+}
+
+.extras-content h4 {
+    color: var(--text-primary);
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.extras-content p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.extras-price {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent-primary);
+    white-space: nowrap;
+}
+
+.rate-note {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.feature-item {
+    background: var(--bg-light);
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: var(--transition);
+    border: 1px solid transparent;
+}
+
+.section-alt .feature-item {
+    background: var(--bg-primary);
+}
+
+.feature-item:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-primary);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.feature-item h4 {
+    color: var(--text-primary);
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+}
+
+.feature-item p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.requirements-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 3rem;
+}
+
+.requirement-card {
+    background: var(--bg-secondary);
+    padding: 3rem;
+    border-radius: 12px;
+    border: 1px solid var(--bg-light);
+}
+
+.section-alt .requirement-card {
+    background: var(--bg-primary);
+}
+
+.requirement-icon {
+    color: var(--accent-primary);
+    margin-bottom: 1.5rem;
+}
+
+.requirement-card h3 {
+    color: var(--text-primary);
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.requirement-list {
+    list-style: none;
+}
+
+.requirement-list li {
+    padding: 0.75rem 0;
+    color: var(--text-secondary);
+    font-size: 1.05rem;
+    position: relative;
+    padding-left: 1.5rem;
+    line-height: 1.7;
+}
+
+.requirement-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--accent-primary);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.requirement-list li strong {
+    color: var(--accent-primary);
+    font-weight: 600;
+}
+
+@media (max-width: 968px) {
+    .packages-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .package-card.featured {
+        transform: scale(1);
+    }
+    
+    .package-card.featured:hover {
+        transform: translateY(-10px);
+    }
+    
+    .extras-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .extras-content {
+        text-align: center;
+    }
+    
+    .requirements-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 640px) {
+    .guarantee-badge {
+        font-size: 0.95rem;
+        padding: 0.75rem 1.5rem;
+    }
+    
+    .package-card {
+        padding: 2.5rem 1.5rem;
+    }
+    
+    .price-amount {
+        font-size: 2.5rem;
+    }
+    
+    .requirement-card {
+        padding: 2rem;
+    }
+}
